@@ -30,6 +30,9 @@
     <ClCompile Include="Code4Life.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="WondevWoman.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Networking.hpp">
@@ -51,6 +54,9 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Game.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="WondevWoman.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

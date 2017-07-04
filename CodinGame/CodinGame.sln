@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostInTheCellWait", "Ghost
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GhostInTheCellWood3", "GhostInTheCellWood3\GhostInTheCellWood3.vcxproj", "{2978F504-54BD-4FEC-9DF0-1381977EE3E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WondevWomanWood3", "WondevWomanWood3\WondevWomanWood3.vcxproj", "{737DD22B-DECB-4EED-9D50-65D35E09DAE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WondevWomanWood2", "WondevWomanWood2\WondevWomanWood2.vcxproj", "{FB873E10-9219-4B17-830C-60E198FE6224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +85,22 @@ Global
 		{2978F504-54BD-4FEC-9DF0-1381977EE3E0}.Release|x64.Build.0 = Release|x64
 		{2978F504-54BD-4FEC-9DF0-1381977EE3E0}.Release|x86.ActiveCfg = Release|Win32
 		{2978F504-54BD-4FEC-9DF0-1381977EE3E0}.Release|x86.Build.0 = Release|Win32
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Debug|x64.ActiveCfg = Debug|x64
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Debug|x64.Build.0 = Debug|x64
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Debug|x86.Build.0 = Debug|Win32
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Release|x64.ActiveCfg = Release|x64
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Release|x64.Build.0 = Release|x64
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Release|x86.ActiveCfg = Release|Win32
+		{737DD22B-DECB-4EED-9D50-65D35E09DAE0}.Release|x86.Build.0 = Release|Win32
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Debug|x64.ActiveCfg = Debug|x64
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Debug|x64.Build.0 = Debug|x64
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Debug|x86.Build.0 = Debug|Win32
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Release|x64.ActiveCfg = Release|x64
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Release|x64.Build.0 = Release|x64
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Release|x86.ActiveCfg = Release|Win32
+		{FB873E10-9219-4B17-830C-60E198FE6224}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

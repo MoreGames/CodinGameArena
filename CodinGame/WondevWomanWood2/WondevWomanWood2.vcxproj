@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5ADC9E8C-D3D5-4EBE-A9CE-89AAC5C3B932}</ProjectGuid>
+    <ProjectGuid>{FB873E10-9219-4B17-830C-60E198FE6224}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Arena</RootNamespace>
+    <RootNamespace>WondevWomanWood2</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,14 +29,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -116,7 +116,6 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -143,22 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Code4Life.cpp" />
-    <ClCompile Include="CodersOfTheCaribbean.cpp" />
-    <ClCompile Include="GhostInTheCell.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Networking.cpp" />
-    <ClCompile Include="WondevWoman.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Code4Life.hpp" />
-    <ClInclude Include="CodersOfTheCaribbean.hpp" />
-    <ClInclude Include="Collections.hpp" />
-    <ClInclude Include="Game.hpp" />
-    <ClInclude Include="GhostInTheCell.hpp" />
-    <ClInclude Include="Networking.hpp" />
-    <ClInclude Include="Random.hpp" />
-    <ClInclude Include="WondevWoman.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
